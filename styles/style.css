@@ -1,0 +1,82 @@
+body{
+  background-color: rgb(204, 198, 198);
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-size: 20px;
+  font-family: 'Canterell';
+}
+h1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: 'Canterell','Serif';
+}
+
+h2{
+  color: red;font-weight: bold;
+  font-family: 'Canterell','Serif';
+  font-size: 40px;
+}
+
+.liens{
+  color: red;
+  font-weight: bold;
+}
+
+#events_table{
+  border-collapse: collapse;
+}
+
+#events_table_header{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.computer_image{
+  background-color: rgb(20, 19, 19);
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  padding: 5%;
+}
+
+#image1{
+  width: 100%;
+  height: 100%;
+
+}
+
+#formated_paragraph{
+  border: 2px dashed rgb(97, 6, 182);
+  color: rgb(97, 6, 182);
+  background-color: rgb(187, 181, 181);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  margin: 2rem;
+}
+
+.years{
+  font-weight: bold;
+}
+
+#year_1961{
+  background-color: grey
+}
+
+.colored_year{
+  background-color: rgb(231, 222, 222);
+}
+
+#citation_web{
+  font-style: italic;
+}
+ #abbreviations{
+   font-style: italic;
+ }
