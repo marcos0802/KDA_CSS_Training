@@ -1,7 +1,7 @@
 body{
-  background-color: rgb(204, 198, 198);
-  margin-left: 5rem;
-  margin-right: 5rem;
+  background-color: #c8c8c8;
+  margin-left: 5%;
+  margin-right: 5%;
   font-size: 20px;
   font-family: 'Canterell';
 }
@@ -28,7 +28,7 @@ h2{
 }
 
 #events_table_header{
-  background-color: black;
+  background-color:#333333;
   color: white;
   text-align: center;
 }
@@ -67,11 +67,11 @@ h2{
 }
 
 #year_1961{
-  background-color: grey
+  background-color: #999999;
 }
 
 .colored_year{
-  background-color: rgb(231, 222, 222);
+  background-color: #dddddd;
 }
 
 #citation_web{
