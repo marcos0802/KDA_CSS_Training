@@ -1,59 +1,78 @@
+
+@font-face{
+  font-family: 'Baskervville';
+  src: url(Baskervville/Baskervville-Regular.ttf);
+}
+
 body{
   background-color: #c8c8c8;
-  margin-left: 5%;
-  margin-right: 5%;
   font-size: 20px;
-  font-family: 'Canterell';
+  font-family: 'Lato';
+  width: 90vw;
+  margin: 0 auto;
 }
 h1{
   text-align: center;
   font-size: 60px;
   font-weight: bolder;
-  font-family: 'Canterell','Serif';
+  font-family: 'Baskervville','Serif';
 }
 
 h2{
-  color: red;font-weight: bold;
-  font-family: 'Canterell','Serif';
+  color: #cf0025;
+  font-weight: bold;
+  font-family: 'Baskervville','Serif';
   font-size: 40px;
 }
 
 .liens{
-  color: red;
+  color: #cf0025;
   font-weight: bold;
 }
 
 #events_table{
   border-collapse: collapse;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 #events_table_header{
+  position: relative;
   background-color:#333333;
   color: white;
   text-align: center;
+  font-weight: bold;
+  left: 10px;
 }
 
-.computer_image{
+#y{
+  width: 80px;
+}
+
+#container_image{
   background-color: rgb(20, 19, 19);
-  border: 2px solid red;
-  border-radius: 10px;
-  text-align: center;
+  color: white;
   font-style: italic;
   font-weight: bold;
-  color: white;
-  padding: 5%;
+  text-align: center;
+  border: 2px solid #cf0025;
+  border-radius: 10px;
+  padding: 20px 20px 20px;
 }
 
-#image1{
+#server_image{
+  position: relative;
   width: 100%;
   height: 100%;
-
+  
 }
 
+
+
 #formated_paragraph{
-  border: 2px dashed rgb(97, 6, 182);
-  color: rgb(97, 6, 182);
-  background-color: rgb(187, 181, 181);
+  border: 2px dashed #5f54af;
+  color: #5f54af;
+  background-color: #b7b7b7;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -64,10 +83,12 @@ h2{
 
 .years{
   font-weight: bold;
+  text-align: center;
+  position: relative;
 }
 
-#year_1961{
-  background-color: #999999;
+.table_row:hover{
+  background-color:#999999;
 }
 
 .colored_year{
